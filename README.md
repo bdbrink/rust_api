@@ -6,7 +6,7 @@ This is a simple REST API written in Rust using the Actix-Web framework. It prov
 
 - Rust programming language (https://www.rust-lang.org/tools/install)
 
-## Build and Run
+## Build, run, and test
 
 1. clone, build, and run:
 
@@ -17,4 +17,9 @@ This is a simple REST API written in Rust using the Actix-Web framework. It prov
    cargo run
    ```
 
+2. test:
 
+    ```bash
+    curl http://localhost:8888
+    curl -X POST http://localhost:8888
+    ```
